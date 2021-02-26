@@ -14,9 +14,9 @@ def main():
 	while True:
 		try:
 			result = stdin_hash()
+			print(result)
 		except ValueError:
-			print("Please input ANSI escape code, like \xF0\x9F\x98\x81")
-		print(result)
+			print(r"Please input ANSI escape code, like \xF0\x9F\x98\x81")
 
 
 if __name__ == '__main__':
